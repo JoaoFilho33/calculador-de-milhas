@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './style.css'
-import ValorPadraoInput from '../valorPadraoInput/valorPadraoInput';
-import DescontoInput from '../descontoInput/descontoInput';
-import BonusInput from '../bonusInput/bonusInput';
+import ValorPadraoInput from '../valorPadraoInput';
+import DescontoInput from '../descontoInput';
+import BonusInput from '../bonusInput';
 import Resultados from '../resultadosCompra';
 import IncrementButtons from '../incrementMilesButton'
+import MilhasCalculatorButton from '../milhasCalculatorButton';
 
 function MilhasCalculator() {
   const [valorPadrao, setValorPadrao] = useState<number>(70);
@@ -57,7 +58,7 @@ function MilhasCalculator() {
       <ValorPadraoInput valorPadrao={valorPadrao} onValorPadraoChange={setValorPadrao} />
       <DescontoInput desconto={desconto} onDescontoChange={setDesconto} />
       <BonusInput bonus={bonus} onBonusChange={setBonus} />
-      <button onClick={calcularMilhas}>Calcular</button>
+      <MilhasCalculatorButton onCalcularMilhas={calcularMilhas} />
       <Resultados valorFinal={valorFinal} precoMilheiroEfetivo={precoMilheiroEfetivo} />
     </div>
   );
