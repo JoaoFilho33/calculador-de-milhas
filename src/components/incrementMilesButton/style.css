@@ -1,0 +1,18 @@
+.increment-Buttons {
+  display: flex; 
+  justify-content: center;
+}
+
+.increment-Buttons button {
+  width: 100px; 
+  border-radius: 20px; 
+  background-color: #007bff; 
+  color: #fff; 
+  font-size: 18px; 
+  font-weight: bold;
+  margin: 5px; 
+}
+
+.increment-Buttons button:hover {
+  background-color: #0056b3; 
+}

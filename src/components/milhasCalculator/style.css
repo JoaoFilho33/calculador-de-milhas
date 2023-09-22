@@ -1,0 +1,45 @@
+/* Estilos para o componente MilhasCalculator */
+.milhas-calculator {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .milhas-calculator h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .milhas-calculator .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .milhas-calculator label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .milhas-calculator input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .milhas-calculator button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .milhas-calculator button {
+    background-color: #0056b3;
+  }
+  

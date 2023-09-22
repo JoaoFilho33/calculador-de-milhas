@@ -13,7 +13,7 @@ const BonusInput: React.FC<Props> = ({ bonus, onBonusChange }) => {
         type="number"
         id="bonus"
         value={bonus}
-        onChange={(e) => onBonusChange(parseFloat(e.target.value))}
+        onChange={(e) => onBonusChange(parseFloat(e.target.value))}// para mudanã de valor do bônus
       />
     </div>
   );

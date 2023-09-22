@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 
 interface Props {
   quantidade: number;
@@ -7,8 +8,7 @@ interface Props {
 
 const QuantidadeInput: React.FC<Props> = ({ quantidade, onQuantidadeChange }) => {
   return (
-    <div className="input-container">
-      <label htmlFor="quantidade">Quantidade de Milhas:</label>
+    <div className="valor-display">
       <input
         type="number"
         id="quantidade"

@@ -1,0 +1,16 @@
+.valor-display {
+    width: 80px; 
+    height: 40px;
+    display: flex;
+    align-items: center; 
+    margin: 5px;
+  }
+  
+.valor-display input {
+  width: 75px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: #e0e0e0;
+}
